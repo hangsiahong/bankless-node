@@ -1,0 +1,17 @@
+[workspace]
+
+members = [
+    "bin/node",
+    "bin/runtime",
+    "finality-bankless",
+    "pallet",
+    "primitives",
+]
+
+exclude = [
+  "flooder",
+  "e2e-tests",
+  "common",
+  "local-tests/send-runtime",
+  "fork-off"
+]
