@@ -135,7 +135,7 @@ pub struct ChainParams {
     chain_name: String,
 
     /// Token symbol. Default is BLW
-    #[structopt(long, default_value = "BLW")]
+    #[structopt(long, default_value = "BLWD")]
     token_symbol: String,
 
     /// AccountIds of authorities forming the committee at the genesis (comma delimited)

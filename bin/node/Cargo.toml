@@ -1,6 +1,7 @@
 [package]
-name = "bankless-node" version = "0.3.0"
-authors = ["Cardinal Cryptography", "Jiren"]
+name = "bankless-node"
+version = "0.3.0"
+authors = ["Jiren"]
 description = "Bankless node binary"
 edition = "2018"
 license = "Apache 2.0"

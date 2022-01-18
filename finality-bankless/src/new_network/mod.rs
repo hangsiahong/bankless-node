@@ -58,7 +58,7 @@ impl Decode for PeerId {
     }
 }
 
-o// Name of the network protocol used by Bankless World. This is how messages
+// Name of the network protocol used by Bankless World. This is how messages
 /// are subscribed to ensure that we are gossiping and communicating with our
 /// own network.
 const BANKLESS_PROTOCOL_NAME: &str = "/cardinals/bankless/2";

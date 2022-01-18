@@ -153,12 +153,12 @@ where
         };
 
         if let Some(justification) =
-            justifications.and_then(|just| just.into_justification(BANKLESSS_ENGINE_ID))
+            justifications.and_then(|just| just.into_justification(BANKLESS_ENGINE_ID))
         {
             debug!(target: "afa", "Got justification along imported block {:?}", number);
 
             if let Err(e) =
-                self.send_justification(post_hash, number, (BANKLESSS_ENGINE_ID, justification))
+                self.send_justification(post_hash, number, (BANKLESS_ENGINE_ID, justification))
             {
                 warn!(target: "afa", "Error while receiving justification for block {:?}: {:?}", post_hash, e);
             }

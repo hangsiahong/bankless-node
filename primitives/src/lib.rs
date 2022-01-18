@@ -5,8 +5,8 @@ use sp_core::crypto::KeyTypeId;
 use sp_runtime::ConsensusEngineId;
 use sp_std::vec::Vec;
 
-// Bankless World = BLW
-pub const KEY_TYPE: KeyTypeId = KeyTypeId(*b"blw");
+// Bankless World = BLWD
+pub const KEY_TYPE: KeyTypeId = KeyTypeId(*b"blwd");
 
 // Same as GRANDPA_ENGINE_ID because as of right now substrate sends only
 // grandpa justifications over the network.
